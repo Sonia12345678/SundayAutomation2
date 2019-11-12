@@ -1,0 +1,8 @@
+name: Parameterization Test Suite
+configFailurePolicy: skip
+tests:
+  - name: Testing Parameterization
+  parameters: { password: testpassword, browser: Firefox, username: testuser }
+  classes:
+    - com.usa.amazontest.TestParameters
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameterization Test Suite">
+	<test name="Testing Parameterization">
+	<parameter name="browser" value="Firefox"/>
+	<parameter name="username" value="testuser"/>
+	<parameter name="password" value="testpassword"/>
+		<classes>
+			<class name="com.usa.amazontest.TestParameters" />
+		</classes>
+	</test>
+</suite>
+
+
+
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample Suite">
+  <test name="testing">
+  	<groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+       <class name="com.usa.amazontest.TestNG_Grouping" />
+    </classes>
+  </test>
+</suite> -->
+
+
+<!-- <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel test suite" parallel="methods" thread-count="2">
+  <test name="Regression 1">
+    <classes>
+     <class name="com.usa.amazontest.Parallel_TestNG" />
+    </classes>
+  </test>
+</suite> -->
+
+
+
+
+
+<!-- 
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon Automation Test Suite">
+	  <listeners>
+		 <listener class-name="ups.pmcs.util.Listeners.TestListener"/>
+	  </listeners>
+      <test name="Amazon Test Cases">
+      <classes>
+     
+      <class name="ups.pmcs.AlertPreferences.Test.AlertCriteriaTest"/> 
+    </classes>
+  </test> Test
+</suite> Suite
+ -->
